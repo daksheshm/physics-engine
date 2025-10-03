@@ -90,8 +90,5 @@ The engine's architecture is modular, with responsibilities separated into disti
 
 ## Future Improvements
 
--   **Performance Optimization**: Implement spatial partitioning (e.g., a Quadtree or spatial hash grid) to optimize collision detection from O(n²) to O(n log n), enabling simulations with a much larger number of objects.
+-   **Performance Optimization**: Add AABB (axis aligned bounding boxes) to improve speed of the physics engine (the current implementation becomes laggy for a large number of objects)
 -   **Advanced Shapes**: Add support for complex convex polygons, capsules, and other geometric primitives.
--   **Constraints and Joints**: Introduce constraints like revolute (hinge), prismatic (slider), and distance joints to build complex, multi-body systems.
--   **Solver Enhancement**: Improve the solver for better stability, particularly in complex scenarios like object stacking, potentially by implementing sequential impulses or a block solver.
--   **Configuration**: Allow physical properties like restitution and friction coefficients to be configured on a per-body basis.
