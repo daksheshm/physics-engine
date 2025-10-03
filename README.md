@@ -33,8 +33,8 @@ The purpose of this engine was to allow me to use realistic physics to create an
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/daksheshm/physics-engine.git
+    cd physics-engine
     ```
 
 2.  **Install dependencies:**
